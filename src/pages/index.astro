@@ -15,6 +15,29 @@ import sections from "../data/projects.json";
     <div class="subtitle">
       I like making software, games, and other cool things.
     </div>
+    <div class="socials">
+      <div class="social-item"><a
+        href="https://github.com/EthanDenny/"
+        title="Github: EthanDenny"
+        target="_blank"
+        rel="noopener noreferrer">
+        <img src="/github.svg" height="48"/>
+      </a></div>
+      <div class="social-item"><a
+        href="https://www.linkedin.com/in/ethan-denny-709/"
+        title="LinkedIn: ethan-denny-709"
+        target="_blank"
+        rel="noopener noreferrer">
+        <img src="/linkedin.svg" height="48"/>
+      </a></div>
+      <div class="social-item"><a
+        href="https://twitter.com/EthanDenny709"
+        title="Twitter: EthanDenny709"
+        target="_blank"
+        rel="noopener noreferrer">
+        <img src="/twitter.svg" height="48"/>
+      </a></div>
+    </div>
     {
       sections.map((section) => (
         <>
@@ -37,8 +60,15 @@ import sections from "../data/projects.json";
       href="https://www.flaticon.com/free-icons/wave"
       title="wave icons"
       target="_blank"
-      rel="noopener noreferrer">Wave icons created by Ayub Irawan - Flaticon</a
-    >
+      rel="noopener noreferrer">Wave icons created by Ayub Irawan - Flaticon
+    </a>
+    <a
+      class="attribution"
+      href="http://creativecommons.org/licenses/by/3.0/"
+      title="wave icons"
+      target="_blank"
+      rel="noopener noreferrer">Social media icons by Icons By Alfredo (https://www.iconfinder.com/AlfredoCreates) (CC BY 3.0)
+    </a>
   </main>
 </Layout>
 
@@ -54,7 +84,7 @@ import sections from "../data/projects.json";
     flex-wrap: wrap;
   }
   .title {
-    margin: 1rem 0 1rem 0;
+    margin-top: 1rem;
     width: 100%;
     height: auto;
 
@@ -72,6 +102,30 @@ import sections from "../data/projects.json";
     font-size: 32px;
 
     color: #000000;
+  }
+  .socials {
+    display: flex;
+    flex-direction: row;
+
+    margin: .5rem 0 -.25rem 0;
+    width: 100%;
+    height: auto;
+
+    font-weight: 400;
+    font-size: 32px;
+
+    color: #000000;
+  }
+  .social-item {
+    margin-right: 1rem;
+    width: fit-content;
+    text-decoration: none;
+    transition: transform 0.2s;
+  }
+  .social-item:hover {
+    transform: scale(
+      1.2
+    );
   }
   .section-title {
     margin: 2rem 0;
