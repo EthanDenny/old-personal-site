@@ -9,9 +9,9 @@
                 "techs": "Markdown"
             },
             {
-                "title": "thedenny.space",
+                "title": "ethandenny.github.io",
                 "body": "My personal portfolio, and where you are right now!",
-                "href": "https://github.com/EthanDenny/thedenny-space",
+                "href": "https://github.com/EthanDenny/ethandenny.github.io",
                 "techs": "Astro TypeScript"
             }
         ]
