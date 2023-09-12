@@ -1,6 +1,6 @@
 [
     {
-        "title": "About Me (who I am)",
+        "title": "About Me",
         "projects": [
             {
                 "title": "Resume",
@@ -17,8 +17,26 @@
         ]
     },
     {
-        "title": "Repos (very cool)",
+        "title": "Repos",
         "projects": [
+            {
+                "title": "Spelunky Classic Lua",
+                "body": "WIP remake of the game \"Spelunky Classic\" in Lua.",
+                "href": "https://github.com/EthanDenny/spelunky-classic-lua",
+                "techs": "Lua"
+            },
+            {
+                "title": "Fractions",
+                "body": "A library for C/C++ that provides support for fractions.",
+                "href": "https://github.com/EthanDenny/fractions",
+                "techs": "C"
+            },
+            {
+                "title": "Leetcode",
+                "body": "Leetcode problems, solved in Rust.",
+                "href": "https://github.com/EthanDenny/leetcode-answers",
+                "techs": "Rust"
+            },
             {
                 "title": "RateMyProf Bot",
                 "body": "Discord bot that gets the ratings of profs at MUNL.",
@@ -29,12 +47,6 @@
                 "title": "Tiny Text",
                 "body": "A minimalist text editor with pleasant colours.",
                 "href": "https://github.com/EthanDenny/tiny-text-editor",
-                "techs": "Python"
-            },
-            {
-                "title": "BLASCII",
-                "body": "A text-based top-down shooter.",
-                "href": "https://github.com/EthanDenny/blascii",
                 "techs": "Python"
             },
             {
@@ -62,8 +74,8 @@
         "projects": [
             {
                 "title": "Can't Stop",
-                "body": "A digital board game built in COMP 2005. (JAR only)",
-                "href": "https://drive.google.com/file/d/10GQTHcnNdGVBAzsrAbxG5p-kRT6WobJW/view?usp=sharing",
+                "body": "A digital board game built for the course COMP 2005.",
+                "href": "https://github.com/EthanDenny/comp-2005-cant-stop-jar",
                 "techs": "Java"
             },
             {
