@@ -9,9 +9,9 @@ function apply() {
         techText.innerHTML = "";
         for (const name of techNames) {
             let colour : string = coloursJSON[name];
-            techText.innerHTML += "<span style='color:" + colour + "'>" + name + "</span> + ";
+            techText.innerHTML += "<span style='color:" + colour + "'>" + name + "</span> & ";
         }
-        techText.innerHTML = techText.innerHTML.substring(0, techText.innerHTML.length - 3);
+        techText.innerHTML = techText.innerHTML.substring(0, techText.innerHTML.length - 7);
     }
 }
 
